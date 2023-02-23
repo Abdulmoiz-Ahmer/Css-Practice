@@ -1,8 +1,8 @@
 import React from "react";
+import { useVisibility } from "@/common";
 import Image from "next/image";
 import { NavBarCtas, NavBar } from "@/components/Header/components";
 import styles from "@/styles/Header.module.css";
-import { useVisibility } from "@/common";
 
 export const Header = () => {
   const [visibility, toggleVisibility] = useVisibility(false);

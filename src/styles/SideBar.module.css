@@ -1,0 +1,14 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-item {
+  border-bottom: 0.0625rem solid #d9d9d9;
+  padding-top: 0.4375rem;
+  padding-bottom: 0.5rem;
+}
+
+.sidebar-item:first-child {
+  border-top: 0.0625rem solid #d9d9d9;
+}
