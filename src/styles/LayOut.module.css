@@ -1,4 +1,11 @@
 .main {
   display: flex;
-  padding-top: 1.25rem;
+  padding: 1.25rem;
+  padding-bottom: 0;
+}
+
+@media (max-width: 875px) {
+  .main {
+    flex-direction: column;
+  }
 }

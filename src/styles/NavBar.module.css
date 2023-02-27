@@ -35,11 +35,11 @@
   }
 }
 
-@media (min-width: 875px) {
+/* @media (min-width: 875px) {
   .mobile-nav-toggle {
-    /* display: none; */
+    display: none;
   }
-}
+} */
 
 /* @media (max-width: 768px) {
   .navigation {
